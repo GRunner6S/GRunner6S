@@ -1,0 +1,11 @@
+!group-check {{
+--?{Save|Dexterity|Constitution|Wisdom} Save
+--process
+--subheader vs DC ?{DC}
+--button ApplyDamage !apply-damage
+~dmg [[?{Damage}]]
+~type ?{Damage on Save|Half,half|None,none}
+~DC ?{DC}
+~saves RESULTS(,)
+~ids IDS(,)
+}}
